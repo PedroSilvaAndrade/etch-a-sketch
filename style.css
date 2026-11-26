@@ -1,5 +1,8 @@
+@import url('https://googleapis.com');
+
+
 body {
-    background-color: azure;
+    background-color: black;
 }
 
 .grid {
@@ -11,9 +14,35 @@ body {
 
 }
 
+.item {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
 .ngrid-button {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-family: "Roboto";
+    background-color: black;
+    color: white;
+    font-style: bold;
+    border-width: 2px;
+    border-color: white;
+}
+
+.title {
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-family: "Roboto";
+    color: white;
+    background-color: none;
+    font-style: bold;
 }
